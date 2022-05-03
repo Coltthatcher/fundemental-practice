@@ -190,24 +190,36 @@
 //   console.log(calculate)
 // }
 
-const firstName = 'Jonas';
-const job ='teacher';
-const birthYear = 1991;
-const year = 2037;
+// const firstName = 'Jonas';
+// const job ='teacher';
+// const birthYear = 1991;
+// const year = 2037;
 
-const jonas = "I'm " + firstName + ', a ' +  (year - birthYear) + ' year old ' + job + "!";
-console.log(jonas);
-// template strings! important.
+// const jonas = "I'm " + firstName + ', a ' +  (year - birthYear) + ' year old ' + job + "!";
+// console.log(jonas);
+// // template strings! important.
 
-const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(jonasNew)
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(jonasNew)
 
 
-console.log(`just a regular old string`)
+// console.log(`just a regular old string`)
 
-console.log('string with \n\
-multiple \n\ '
-)
+// console.log('string with \n\
+// multiple \n\ '
+// )
+
+const age = 15;
+const isOldEnough = age >= 18;
+
+if(age >= 18){
+  console.log('Sarah can start driving lessons 😘')
+} else {
+const yearsLeft = 18 - age;
+console.log(`sarah is too young. wait ${yearsLeft} years :)`)
+}
+
+
 
 
 
