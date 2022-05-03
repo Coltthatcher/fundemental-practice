@@ -209,14 +209,47 @@
 // multiple \n\ '
 // )
 
-const age = 15;
-const isOldEnough = age >= 18;
+// const age = 15;
+// const isOldEnough = age >= 18;
 
-if(age >= 18){
-  console.log('Sarah can start driving lessons 😘')
+// if(age >= 18){
+//   console.log('Sarah can start driving lessons 😘')
+// } else {
+// const yearsLeft = 18 - age;
+// console.log(`sarah is too young. wait ${yearsLeft} years :)`)
+// }
+
+
+// const birthYear = 2012;
+// let century;
+
+// if(birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century)
+
+
+// const marksMass = 78;
+// const marksHeight = 1.69;
+// const johnsMass = 92;
+// const johnsHeight = 1.95;
+const marksMass = 95;
+const marksHeight = 1.88;
+const johnsMass = 85;
+const johnsHeight = 1.76;
+
+
+const BMIMark = marksMass / marksHeight ** 2;
+const BMIJohn = johnsMass / (johnsHeight * johnsHeight);
+
+const markHigherBMI = BMIMark > BMIJohn;
+
+if(BMIMark < BMIJohn){
+  console.log(`marks BMI is ${BMIMark} which n is higher than johns`)
 } else {
-const yearsLeft = 18 - age;
-console.log(`sarah is too young. wait ${yearsLeft} years :)`)
+  console.log(`Johns Bmi is ${BMIJohn} which is higher than marks`)
 }
 
 
