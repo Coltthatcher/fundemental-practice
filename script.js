@@ -304,8 +304,58 @@
 
 // console.log(n)
 
+// truthy falsy value
+
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean('Colt'));
+// console.log(Boolean({}));
+// console.log(Boolean(''));
 
 
+// const money = 90;
+// if(money) {
+//   console.log("Spend it all");
+// } else {
+//   console.log('it me');
+// }
+
+// let height = 0;
+// if(height) {
+//   console.log('height is defined');
+// }else {
+//   console.log('height is not defined')
+// }
+
+
+// const age = 18;
+// if(age === 18) console.log('YOU AN ADULT')
+
+// === true equality  <---'18'===18; false
+// == conversion equality <--- '18'==18; true
+
+// avoid loose equality ==
+
+const favorite = Number(prompt("WHats your favorite number"))
+console.log(typeof favorite)
+console.log(Number(favorite))
+console.log(String(favorite))
+5
+if (favorite === 23 ) {
+  console.log('23 is an amazing number')
+} else if(favorite === 7) {
+  console.log('7 is the number')
+} else if(favorite === 9) {
+  console.log('9 is the number')
+} else if(favorite === 5) {
+  console.log('5 is the number')
+}else{
+  console.log("number is not 23 or 7")
+}
+
+if(favorite !== 23){
+  console.log("why not 23")
+}
 
 
 
