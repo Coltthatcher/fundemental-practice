@@ -235,22 +235,74 @@
 // const marksHeight = 1.69;
 // const johnsMass = 92;
 // const johnsHeight = 1.95;
-const marksMass = 95;
-const marksHeight = 1.88;
-const johnsMass = 85;
-const johnsHeight = 1.76;
+// const marksMass = 95;
+// const marksHeight = 1.88;
+// const johnsMass = 85;
+// const johnsHeight = 1.76;
 
 
-const BMIMark = marksMass / marksHeight ** 2;
-const BMIJohn = johnsMass / (johnsHeight * johnsHeight);
+// const BMIMark = marksMass / marksHeight ** 2;
+// const BMIJohn = johnsMass / (johnsHeight * johnsHeight);
 
-const markHigherBMI = BMIMark > BMIJohn;
+// const markHigherBMI = BMIMark > BMIJohn;
 
-if(BMIMark < BMIJohn){
-  console.log(`marks BMI is ${BMIMark} which n is higher than johns`)
-} else {
-  console.log(`Johns Bmi is ${BMIJohn} which is higher than marks`)
-}
+// if(BMIMark < BMIJohn){
+//   console.log(`marks BMI is ${BMIMark} which n is higher than johns`)
+// } else {
+//   console.log(`Johns Bmi is ${BMIJohn} which is higher than marks`)
+// }
+
+
+// // type conversion
+// const inputYear = '1991';
+// console.log(Number(inputYear), inputYear);
+// console.log(Number(inputYear) + 18);
+
+// console.log(Number('Jonas') + 18);
+// console.log(typeof NaN)
+
+// console.log(String(23), 23);
+
+
+// // type coercion
+// console.log("I am " + 23 + ' years old') // to strings with + 
+// console.log('23' - '10' - 3); // to numbers with -
+
+
+// let n = '1' + 1; 
+// if any number is added to a string then it will turn into a string
+// console.log(n) // this is turned into 11
+
+// n = n - 1; 
+// the minus again will turn it into a number though, this here is turned into 10 now because technically its 11 - 1
+// console.log(n)
+
+// let y = 2 + 3;
+// console.log(y)
+// let x = y + 4;
+// console.log(x)
+// let c = x + '5';
+// console.log(c)
+
+
+// let x = '10' - '4';
+// console.log(x)
+// let y = x - '3';
+// console.log(y)
+// let c = y - 2;
+// console.log(c)
+// let n = c + '5';
+// console.log(n)
+
+
+// let x = 8 + 7;
+// console.log(x)
+// let y = x + '9' + 7;
+// console.log(y)
+// let n = y - 5 + '20' // 7 - 5 = 2;
+// // 2 + "20" = 220
+
+// console.log(n)
 
 
 
