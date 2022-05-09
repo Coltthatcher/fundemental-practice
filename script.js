@@ -389,6 +389,19 @@
 //   console.log(types)
 // }
 
+const scoreDolphins = (88 + 91 + 110) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+console.log(scoreDolphins, scoreKoalas)
+
+
+if (scoreDolphins > scoreKoalas) {
+  console.log('Dolph win'); 
+} else if (scoreKoalas > scoreDolphins) {
+  console.log('Ko wins')
+} else if (scoreKoalas === scoreDolphins) {
+  console.log('no winnies')
+}
+
 
 
 
